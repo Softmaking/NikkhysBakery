@@ -61,7 +61,6 @@ Docker:
 
 ```bash
 docker compose build
-docker compose up -d postgres
 docker compose run --rm backend-migrate
 docker compose up -d backend frontend
 ```

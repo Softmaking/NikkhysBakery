@@ -60,6 +60,7 @@ Consolidar la estructura spec-driven fullstack manteniendo los nombres actuales:
 - Nuevos permisos agregados en frontend deben existir primero en backend/IAM.
 - Queda warning de budget CSS en inventario; no bloquea build, pero conviene resolverlo antes de crecer mas la pantalla.
 - El despliegue Docker requiere crear fuera del repositorio el archivo de secretos indicado en `infra/README.md`.
+- NikkhysBakery comparte la red Docker y PostgreSQL del servidor Kyrae; el frontend usa el puerto local `4201`.
 
 ## Nueva funcionalidad implementada
 
