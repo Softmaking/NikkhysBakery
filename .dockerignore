@@ -1,0 +1,14 @@
+.git
+.git/**
+**/.git
+**/.git/**
+**/node_modules
+**/dist
+**/coverage
+**/.angular
+**/.env
+**/.env.*
+!**/.env.example
+*.log
+.DS_Store
+NikkhysBakery-legacy

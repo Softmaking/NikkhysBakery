@@ -21,6 +21,8 @@
 - Renombrada la identidad del proyecto a NikkhysBakery en carpetas, paquetes, runtime, documentación, scripts, interfaz pública y manuales.
 - Integrado `.sdd/` en la raíz y adaptado a los repositorios separados frontend/backend, contratos documentados y versiones reales instaladas.
 - Corregida la documentación para Angular `22.0.7`, Angular Material `22.0.5`, TypeScript `6.0.3`, NestJS `11.1.28` y backend `0.4.2`.
+- Eliminada la configuración heredada de SIA: base local `nikkhysbakery` y remotes frontend/backend actualizados.
+- Añadido despliegue Docker con PostgreSQL persistente, backend NestJS, migraciones, seed, frontend Nginx, proxy `/api` y healthcheck.
 - Implementado modal persistente de configuración para ítems del catálogo inventariable: abre al seleccionar tarjeta, solo cierra con su botón y permite guardar cambios autorizados.
 - Protegida la edición de ítems con historial o dependencias: backend informa bloqueos y valida unidad base, tipo, lotes, stock negativo y estado antes de guardar.
 - Corregido el detalle de ítem para usar consultas compatibles al calcular bloqueos; el modal queda sobre el navbar y se adapta al viewport móvil.

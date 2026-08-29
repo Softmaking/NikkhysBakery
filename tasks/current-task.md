@@ -59,6 +59,7 @@ Consolidar la estructura spec-driven fullstack manteniendo los nombres actuales:
 - La raiz no es repo git actualmente, por lo que estos archivos deben versionarse de forma explicita.
 - Nuevos permisos agregados en frontend deben existir primero en backend/IAM.
 - Queda warning de budget CSS en inventario; no bloquea build, pero conviene resolverlo antes de crecer mas la pantalla.
+- El despliegue Docker requiere crear fuera del repositorio el archivo de secretos indicado en `infra/README.md`.
 
 ## Nueva funcionalidad implementada
 

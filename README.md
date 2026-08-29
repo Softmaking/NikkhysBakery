@@ -57,6 +57,17 @@ npm install
 npm start
 ```
 
+Docker:
+
+```bash
+docker compose build
+docker compose up -d postgres
+docker compose run --rm backend-migrate
+docker compose up -d backend frontend
+```
+
+La guía completa de despliegue está en `infra/README.md`.
+
 Configuracion esperada por defecto:
 
 - Backend: `http://localhost:3000`
